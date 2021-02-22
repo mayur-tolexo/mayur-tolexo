@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m experienced golang developer with 4+ years of experience
+- 🔭 I’m experienced golang developer
 - 🌱 I’m currently learning kubernetes 
 - 📫 How to reach me: https://www.linkedin.com/in/mayurdaeron/
 - ⚡ Fun fact: We can discuss anything over beer 🍻
