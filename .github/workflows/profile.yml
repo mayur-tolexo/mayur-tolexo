@@ -13,6 +13,11 @@ on:
 permissions:
   contents: write
 
+# Only one profile run at a time so the asset-committing jobs never race on a push.
+concurrency:
+  group: profile-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   contrib-3d:
     name: 3D contribution calendar
@@ -29,7 +34,11 @@ jobs:
           git config user.email github-actions@github.com
           git add -A profile-3d-contrib
           if git commit -m "chore: refresh 3D contribution calendar"; then
-            git push
+            # Rebase onto any concurrent pushes, then push with a small retry.
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin master && git push && break
+              echo "push attempt $i failed, retrying"; sleep 3
+            done
           fi
 
   pacman:
