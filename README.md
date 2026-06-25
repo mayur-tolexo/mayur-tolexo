@@ -17,7 +17,7 @@
 │ Inference   vLLM · llm-d
 │ Langs       Go (primary) · Python · TypeScript · Shell
 │ Editor      nvim · zsh
-│ Uptime      8+ yrs shipping Go in prod
+│ Uptime      11+ yrs shipping Go in prod
 │ Fun fact    debugging is just printf with extra steps
 ╰───────────────────────────────────────────────────────────
 ```
@@ -25,8 +25,6 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=mayur-tolexo&label=Profile%20views&color=7aa2f7&style=flat-square" alt="profile views" />
   <a href="https://github.com/mayur-tolexo?tab=followers"><img src="https://img.shields.io/github/followers/mayur-tolexo?label=Followers&style=flat-square&color=7aa2f7&labelColor=1a1b27" alt="followers" /></a>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="k8s" />
 </p>
 
 ---
@@ -76,10 +74,6 @@ Upstream work on the container & inference stack — each link lists my merged P
 ### 🧊 Contributions in 3D
 
 ![3d contribution calendar](./profile-3d-contrib/profile-night-view.svg)
-
-### 🧬 Metrics
-
-![metrics](./github-metrics.svg)
 
 ---
 
