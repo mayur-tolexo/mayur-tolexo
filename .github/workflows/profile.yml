@@ -10,7 +10,7 @@ on:
     - cron: "0 2 * * *"   # nightly at 02:00 UTC
   workflow_dispatch:        # manual run button
   push:
-    branches: [main]
+    branches: [master]
 
 permissions:
   contents: write
