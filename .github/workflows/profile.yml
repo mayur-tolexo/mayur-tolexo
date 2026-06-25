@@ -3,8 +3,7 @@ name: profile
 # Regenerates the auto-generated dashboard assets:
 #   - lowlighter/metrics  -> github-metrics.svg (committed to main)
 #   - pacman graph        -> pacman.svg / pacman-dark.svg (pushed to the output branch)
-#   - 3D contributions    -> profile-3d-contrib/*.svg (committed to main)
-#   - blog-post-workflow  -> refreshes the Medium list inside README between the markers
+#   - 3D contributions    -> profile-3d-contrib/*.svg (committed to master)
 on:
   schedule:
     - cron: "0 2 * * *"   # nightly at 02:00 UTC
@@ -80,14 +79,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  blog:
-    name: latest medium posts
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://medium.com/feed/@mayur.das4"
-          max_post_count: 5
-          commit_message: "chore: refresh latest blog posts"
