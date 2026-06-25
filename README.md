@@ -61,7 +61,7 @@ Upstream work on the container & inference stack — each link lists my merged P
 ### 📊 The numbers
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mayur-tolexo&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="github stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mayur-tolexo&show_icons=true&theme=tokyonight&hide_border=true" alt="github stats" />
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=mayur-tolexo&theme=tokyonight&hide_border=true" alt="commit streak" />
 </p>
 <p align="center">
