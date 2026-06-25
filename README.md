@@ -23,11 +23,12 @@
 
 ### 🌍 Open-source contributions
 
-Working upstream on the container & inference stack:
+Upstream work on the container & inference stack — each link lists my merged PRs:
 
-- [**containerd/nerdctl**](https://github.com/containerd/nerdctl) — `-t -d -i` TTY handling ([#4989](https://github.com/containerd/nerdctl/pull/4989)) and `--mount type=image` ([#4990](https://github.com/containerd/nerdctl/pull/4990))
-- [**google/gvisor**](https://github.com/google/gvisor) — `max_user_namespaces` sysctl support + enforcement ([#13539](https://github.com/google/gvisor/pull/13539))
-- [**vllm-project/vllm**](https://github.com/vllm-project/vllm) · [**llm-d**](https://github.com/llm-d) · [**containerd**](https://github.com/containerd/containerd) — LLM serving & runtime internals
+- [**containerd/nerdctl**](https://github.com/containerd/nerdctl/pulls?q=is%3Apr+author%3Amayur-tolexo)
+- [**google/gvisor**](https://github.com/google/gvisor/pulls?q=is%3Apr+author%3Amayur-tolexo)
+- [**containerd/containerd**](https://github.com/containerd/containerd/pulls?q=is%3Apr+author%3Amayur-tolexo)
+- [**llm-d**](https://github.com/search?q=is%3Apr+author%3Amayur-tolexo+org%3Allm-d&type=pullrequests)
 
 ---
 
