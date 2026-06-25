@@ -67,9 +67,6 @@ Upstream work on the container & inference stack — each link lists my merged P
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=mayur-tolexo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top languages" />
 </p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mayur-tolexo&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20activity" alt="contribution activity graph" />
-</p>
 
 ### 🧊 Contributions in 3D
 
