@@ -35,9 +35,9 @@ Working upstream on the container & inference stack:
 ### 👾 Contribution arcade
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mayur-tolexo/mayur-tolexo/output/pacman-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mayur-tolexo/mayur-tolexo/output/pacman.svg" />
-  <img alt="pacman eating my contribution graph" src="https://raw.githubusercontent.com/mayur-tolexo/mayur-tolexo/output/pacman.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mayur-tolexo/mayur-tolexo/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mayur-tolexo/mayur-tolexo/output/pacman-contribution-graph.svg" />
+  <img alt="pacman eating my contribution graph" src="https://raw.githubusercontent.com/mayur-tolexo/mayur-tolexo/output/pacman-contribution-graph.svg" />
 </picture>
 
 ### 📊 The numbers
