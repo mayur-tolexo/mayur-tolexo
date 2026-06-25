@@ -2,6 +2,7 @@ name: profile
 
 # Regenerates the auto-generated dashboard assets:
 #   - pacman graph        -> pacman.svg / pacman-dark.svg (pushed to the output branch)
+#   - osscard (custom Go)  -> oss-prs.svg (committed to master)
 on:
   schedule:
     - cron: "0 2 * * *"   # nightly at 02:00 UTC
@@ -36,3 +37,29 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  oss-card:
+    name: oss contributions card
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "stable"
+      - name: generate oss-prs.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: go run ./cmd/osscard -out "$GITHUB_WORKSPACE/oss-prs.svg" -title "Latest merged PRs"
+        working-directory: tools/osscard
+      - name: commit & push card
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A oss-prs.svg
+          if git commit -m "chore: refresh OSS contributions card"; then
+            # Rebase onto any concurrent pushes, then push with a small retry.
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin master && git push && break
+              echo "push attempt $i failed, retrying"; sleep 3
+            done
+          fi
