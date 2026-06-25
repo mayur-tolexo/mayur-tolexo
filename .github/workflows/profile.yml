@@ -41,6 +41,20 @@ jobs:
           plugin_notable_repositories: yes
           plugin_achievements: yes
           plugin_achievements_threshold: C
+          # Coding habits: most-active day/hour, tabs-vs-spaces, commit timing.
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_trim: yes
+          # Tech topics rendered as icons.
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 12
+          # Lines of code changed across repos.
+          plugin_lines: yes
+          plugin_lines_sections: base
           committer_message: "chore: refresh github-metrics.svg"
 
   contrib-3d:

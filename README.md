@@ -1,12 +1,32 @@
 <h1 align="center">Mayur Das</h1>
+
 <p align="center">
-  <b>Go systems engineer</b> &nbsp;·&nbsp; containers &nbsp;·&nbsp; Kubernetes &nbsp;·&nbsp; LLM infrastructure
+  <a href="https://github.com/mayur-tolexo">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=7AA2F7&center=true&vCenter=true&width=520&height=42&lines=Go+systems+engineer;Containers+-+Kubernetes+-+LLM+infra;I+make+LLM+inference+fast+and+cheap;Debugging+is+printf+with+extra+steps" alt="typing tagline" />
+  </a>
 </p>
+
+```ansi
+╭───────────────────────────────────────────────────────────
+│ mayur@github
+├───────────────────────────────────────────────────────────
+│ Role        Go systems engineer
+│ Focus       containers · Kubernetes · LLM infrastructure
+│ Runtime     containerd · gVisor · runc
+│ Orchestr    kubernetes · helm
+│ Inference   vLLM · llm-d
+│ Langs       Go (primary) · Python · TypeScript · Shell
+│ Editor      nvim · zsh
+│ Uptime      8+ yrs shipping Go in prod
+│ Fun fact    debugging is just printf with extra steps
+╰───────────────────────────────────────────────────────────
+```
+
 <p align="center">
-  I build low-level infra in Go — container runtimes, distributed schedulers, and the plumbing that keeps LLM inference fast and cheap.
-</p>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mayur-tolexo&label=Profile%20views&color=0e75b6&style=flat-square" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=mayur-tolexo&label=Profile%20views&color=7aa2f7&style=flat-square" alt="profile views" />
+  <a href="https://github.com/mayur-tolexo?tab=followers"><img src="https://img.shields.io/github/followers/mayur-tolexo?label=Followers&style=flat-square&color=7aa2f7&labelColor=1a1b27" alt="followers" /></a>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="go" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="k8s" />
 </p>
 
 ---
@@ -48,6 +68,9 @@ Upstream work on the container & inference stack — each link lists my merged P
 </p>
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=mayur-tolexo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top languages" />
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mayur-tolexo&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20activity" alt="contribution activity graph" />
 </p>
 
 ### 🧊 Contributions in 3D
