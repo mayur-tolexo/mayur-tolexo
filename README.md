@@ -68,10 +68,6 @@ Upstream work on the container & inference stack — each link lists my merged P
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=mayur-tolexo&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top languages" />
 </p>
 
-### 🧊 Contributions in 3D
-
-![3d contribution calendar](./profile-3d-contrib/profile-night-view.svg)
-
 ---
 
 ### 🤝 Connect

@@ -2,7 +2,6 @@ name: profile
 
 # Regenerates the auto-generated dashboard assets:
 #   - pacman graph        -> pacman.svg / pacman-dark.svg (pushed to the output branch)
-#   - 3D contributions    -> profile-3d-contrib/*.svg (committed to master)
 on:
   schedule:
     - cron: "0 2 * * *"   # nightly at 02:00 UTC
@@ -19,28 +18,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  contrib-3d:
-    name: 3D contribution calendar
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: mayur-tolexo
-      - name: commit & push 3D contrib
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A profile-3d-contrib
-          if git commit -m "chore: refresh 3D contribution calendar"; then
-            # Rebase onto any concurrent pushes, then push with a small retry.
-            for i in 1 2 3; do
-              git pull --rebase --autostash origin master && git push && break
-              echo "push attempt $i failed, retrying"; sleep 3
-            done
-          fi
-
   pacman:
     name: pacman contribution graph
     runs-on: ubuntu-latest
