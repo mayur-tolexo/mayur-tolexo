@@ -62,6 +62,8 @@ Working upstream on the container & inference stack:
 
 ### ✍️ Latest writing
 <!-- BLOG-POST-LIST:START -->
+- [Maximizing Your Wealth: Using a Car Loan Strategically](https://medium.com/@mayur.das4/maximizing-your-wealth-using-a-car-loan-strategically-185f92a97c67?source=rss-9b662ba980c2------2)
+- [Generate RESTful API documentation by integration swagger](https://medium.com/@mayur.das4/generate-restful-api-documentation-by-integration-swagger-baa52aefd2dd?source=rss-9b662ba980c2------2)
 <!-- BLOG-POST-LIST:END -->
 
 ### 🤝 Connect
